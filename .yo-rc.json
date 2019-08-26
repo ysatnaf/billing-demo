@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "billingDemo",
+    "packageName": "com.xforceplus.billingdemo",
+    "packageFolder": "com/xforceplus/billingdemo",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "react",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.2.0",
+    "jwtSecretKey": "MjA3Y2JhNTliMmJlNzQwODk1YWExY2JmMjNmNzM5MGViODY0NmIxNjA1M2U1M2E5YzE3ZDFkMmM0MzZiMDc5YTU1NDdmYjM0MGYyNDQxNTVmNjEyYmIwYzljODZmMTBlYjkzZDNkMjIyYTJiNDllYmVlZTNmZGU0OWE3MzA2YjA=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "ysatnaf",
+  "repository-name": "billing-demo"
+}
