@@ -43,6 +43,9 @@ public class CacheConfiguration {
             createCache(cm, com.xforceplus.billingdemo.domain.User.class.getName());
             createCache(cm, com.xforceplus.billingdemo.domain.Authority.class.getName());
             createCache(cm, com.xforceplus.billingdemo.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.xforceplus.billingdemo.domain.Product.class.getName());
+            createCache(cm, com.xforceplus.billingdemo.domain.Product.class.getName() + ".productPlans");
+            createCache(cm, com.xforceplus.billingdemo.domain.ProductPlan.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

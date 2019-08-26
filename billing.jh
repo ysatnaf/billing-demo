@@ -1,0 +1,13 @@
+entity Product {
+	code String
+	name String
+}
+
+entity ProductPlan {
+	code String
+    name String
+}
+
+relationship OneToMany {
+	Product to ProductPlan
+}
